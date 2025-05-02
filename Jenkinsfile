@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Cloner le dépôt') {
             steps {
-                git branch: 'main', url: 'https://github.com/sarraelheni/school.git'
+                git branch: 'main', url: 'https://github.com/sarraelheni/school_project.git'
             }
         }
 
